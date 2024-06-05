@@ -1,49 +1,57 @@
 *{
     box-sizing: border-box;
 }
-
-#chart{
-    border: 1px dotted red; 
-    padding-left: 100px;
-
-} 
-#chart_header{
-    font-size: 30px;
-    font-weight:20;
+body{
+    padding-left: 60px;
+    background-color: aliceblue;
 }
+#chart_name{
+    font-size: 40px;
+
+}
+
 #chart_body{
-   border:1px dotted green;
-   display:flex;
-   flex-direction: row;
-}
+    background-color:white;
+    border:3px solid rgb(220, 208, 208);
+    width:200px;
+    margin-right: 30px;
+    margin-top:-30px;
 
-.header_basic{
-    border:1px solid rgb(13, 98, 13);
-    height: 30px;
-    width: 250px;
-    background-color:rgb(13, 98, 13) ;
-    text-transform: uppercase;
-    font-weight: 800;
-    text-align: center;
-    color: white;
-    }
-.body_basic{
-    border:3px solid grey;
+}
+#chart{
     
-    border-top-color:rgb(13, 98, 13) ;
-    height: 250px;
-    width: 252px;
-    background-color: white ;
-    
-    padding-left: 40px;
+    width:700px;
     display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-
+    flex-direction: row;
+    
+    
 }
-
+h4{
+    height: 30px;
+    width:auto;
+    border: 1px solid green;
+    position:relative;
+    top: -25px;
+    color: white;
+    background-color: rgb(4, 74, 4);
+    text-align: center;
+    font-weight: 300;
+}
+.description{
+    text-align: left;
+    padding-left: 30px;
+    position:relative;
+    top:-30px;
+}
 #basic_button{
-    height:30px;
-    width: 90px;
+    background-color: green;
+    color:white;
 }
+#orange{
+    background-color: orange;
+    color:white;
 
+}
+#f1{
+    color: green;
+}
