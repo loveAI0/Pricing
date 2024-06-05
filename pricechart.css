@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+#chart{
+    border: 1px dotted red; 
+    padding-left: 100px;
+
+} 
+#chart_header{
+    font-size: 30px;
+    font-weight:20;
+}
+#chart_body{
+   border:1px dotted green;
+   display:flex;
+   flex-direction: row;
+}
+
+.header_basic{
+    border:1px solid rgb(13, 98, 13);
+    height: 30px;
+    width: 250px;
+    background-color:rgb(13, 98, 13) ;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    }
+.body_basic{
+    border:3px solid grey;
+    
+    border-top-color:rgb(13, 98, 13) ;
+    height: 250px;
+    width: 252px;
+    background-color: white ;
+    
+    padding-left: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#basic_button{
+    height:30px;
+    width: 90px;
+}
+
